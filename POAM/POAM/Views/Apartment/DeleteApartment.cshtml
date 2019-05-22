@@ -1,0 +1,70 @@
+﻿@model POAM.Models.Apartment
+
+@{
+    ViewData["Title"] = "Delete Apartment";
+}
+<div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+        <h4 style="margin-top:150px">Are you sure you want to delete this apartment?</h4>
+        <div>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt class="text-primary">
+                    Street:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Street)
+                </dd>
+                <dt class="text-primary">
+                    Building:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Building)
+                </dd>
+                <dt class="text-primary">
+                    Flat No.:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.FlatNo)
+                </dd>
+                <dt class="text-primary">
+                    Tenants:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.NoTenants)
+                </dd>
+                <dt class="text-primary">
+                    Previous Debt:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.PreviousDebt)
+                </dd>
+                <dt class="text-primary">
+                    Current Debt:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.CurrentDebt)
+                </dd>
+                <dt class="text-primary">
+                    Total Debt:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.TotalDebt)
+                </dd>
+            </dl>
+            <hr />
+            <div style="float:right">
+                <form asp-action="DeleteApartment">
+                    <input type="hidden" asp-for="IdApartment" />
+                    <input type="submit" value="Yes" class="btn btn-danger" />
+                    <input asp-action="ApartmentsOwned" type="submit" value="Cancel" class="btn btn-default" />
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>

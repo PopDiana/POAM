@@ -1,0 +1,78 @@
+﻿@model IEnumerable<POAM.Models.Apartment>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<form style ="margin-top:50px">
+
+    @if (Authentication.Instance.isAdmin())
+    {
+
+        <input asp-action="EmployeesList" asp-controller="Employee" class="btn btn-primary" type="submit" value="List employees" />
+
+
+        <input asp-action="OwnersList" asp-controller="Owner" class="btn btn-primary" type="submit" value="List owners" />
+
+
+        <input asp-action="ContractsList" asp-controller="Contract" class="btn btn-primary" type="submit" value="List contracts" />
+
+
+        <input asp-action="ApartmentsOwned" asp-controller="Apartment" class="btn btn-primary" type="submit" value="Apartments owned" />
+    }
+    else
+    {
+
+        <input asp-action="OwnersList" asp-controller="Owner" class="btn btn-primary" type="submit" value="List owners" />
+
+        <input asp-action="ApartmentsOwned" asp-controller="Apartment" class="btn btn-primary" type="submit" value="Apartments owned" />
+    }
+</form>
+
+<h4 style="margin-top:45px;margin-left:10px"> @DateTime.Now.ToString("MMMM") @DateTime.Now.Year report </h4>
+
+<table style="margin-top:45px" class="table table-hover">
+    <thead>
+        <tr class="alert-danger">
+            <th class="text-center">
+                Owner
+            </th>
+            <th class="text-center" >
+                Address
+            </th>
+            <th class="text-center">
+                No. tenants
+            </th>
+            <th class="text-center">
+                Total payment amount
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="alert-warning text-center">
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdOwnerNavigation.FullName)
+                </td>
+                <td>
+                    @("Street "+ item.Street + ",Building "+ item.Building + ",Flat No. "+ item.FlatNo)
+                </td>
+                <td>
+                    @item.NoTenants
+                </td>
+                <td>
+                    @item.TotalDebt
+                </td>
+                <td>
+                    <form>
+                    <input asp-action="ApartmentDetails" asp-route-id="@item.IdApartment" class="btn btn-primary" type="submit" value="Details" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

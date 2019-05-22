@@ -1,0 +1,50 @@
+﻿@model POAM.Models.Contract
+
+@{
+    ViewData["Title"] = "Contract Details";
+}
+<div class="col-md-4">
+</div>
+<div class="col-md-4">
+
+    <h4 style="margin-top:150px">Contract details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            Date:
+        </dt>
+        <dd>
+            @{string date = Model.Date.ToString();
+                @(date.Substring(0, date.Length - 8))
+            }
+        </dd>
+        <dt>
+            Type:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+        <dt>
+            Provider:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Provider)
+        </dd>
+        <dt>
+            Price:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price) /unit
+        </dd>
+
+    </dl>
+    <hr />
+    <div style="float:right">
+        <form>
+            <input asp-action="ContractsList" type="submit" value="Back" class="btn btn-default" />
+            <input asp-action="FinalizeContract" asp-route-id="@Model.IdContract"type="submit" value="Finalize" class="btn btn-danger" />
+        </form>
+    </div>
+</div>
+

@@ -1,0 +1,55 @@
+﻿@model POAM.Models.Employee
+
+@{
+    ViewData["Title"] = "Add Employee";
+}
+
+<div class="col-md-4">
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="AddEmployee">
+                <h3 style="margin-top:40px">Add employee</h3>
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="FullName" class="control-label"> Full name </label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Telephone" class="control-label"></label>
+                    <input asp-for="Telephone" class="form-control" />
+                    <span asp-validation-for="Telephone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pid" class="control-label">PID</label>
+                    <input asp-for="Pid" class="form-control" />
+                    <span asp-validation-for="Pid" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Employment" class="control-label"></label>
+                    <input asp-for="Employment" class="form-control" />
+                    <span asp-validation-for="Employment" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Salary" class="control-label"></label>
+                    <input asp-for="Salary" class="form-control" />
+                    <span asp-validation-for="Salary" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group" style="float:right">
+                    <input type="submit" asp-action="EmployeesList" value="Back" class="btn btn-default" />
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<POAM.Models.Contract>
+
+@{
+    ViewData["Title"] = "Contract List";
+}
+<h3 style="margin-top:45px">Contracts list</h3>
+<hr />
+
+<form>
+    <input asp-controller="Apartment" asp-action="MainPage" type="submit" value="Back to main page" class="btn btn-default" />
+
+    @if (Authentication.Instance.isAdmin())
+    {
+        <input asp-action="AddContract" type="submit" value="Add contract" class="btn btn-primary" />
+    }
+</form>
+
+
+<table style="margin-top:45px" class="table table-hover">
+    <thead>
+        <tr class="alert-danger">
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Provider)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr class="alert-warning text-center">
+            <td>
+                @{string date = item.Date.ToString();
+                    @(date.Substring(0, date.Length-8))
+                }
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Provider)
+            </td>
+
+            <td>
+                <form>
+                    <input asp-action="ContractDetails" asp-route-id="@item.IdContract" class="btn btn-primary" type="submit" value="Details" />
+                    <input asp-action="FinalizeContract" asp-route-id="@item.IdContract" class="btn btn-danger" type="submit" value="Finalize" />
+                </form>
+
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,89 @@
+﻿
+@model IEnumerable<POAM.Models.Owner>
+
+
+@{
+    ViewData["Title"] = "Owner List";
+}
+
+<h3 style="margin-top:45px">Owner list</h3>
+<hr />
+
+<form>
+   <input asp-controller= "Apartment" asp-action="MainPage" type="submit" value="Back to main page" class="btn btn-default" />
+
+   @if (Authentication.Instance.isAdmin())
+   {
+      <input asp-action="AddOwner" type="submit" value="Add owner" class="btn btn-primary" />
+   }
+</form>
+
+
+<table style="margin-top:45px" class="table table-hover">
+    <thead>
+        <tr class="alert-danger">
+            <th class="text-center">
+                Full name
+            </th>
+            <th class="text-center">
+                Telephone
+            </th>
+            <th class="text-center">
+                Email
+            </th>
+            <th class="text-center">
+                Total payment amount for owned apartments
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="alert-warning text-center">
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telephone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @{double totalOwnerDebt = 0.0;
+
+                        foreach (Apartment apartment in ViewBag.apartments)
+                        {
+                            if (apartment.IdOwner == item.IdOwner)
+                            {
+                                totalOwnerDebt = totalOwnerDebt + (double)apartment.TotalDebt;
+                            }
+                        }
+
+
+                        @totalOwnerDebt
+                    }
+
+                </td>
+                <td>
+                    <form>
+
+                        @if (Authentication.Instance.isAdmin())
+                        {
+                            <input  asp-action="DeleteOwner" asp-route-id="@item.IdOwner" class="btn btn-danger" type="submit" value="Delete" />
+                        }
+
+                        @if (Authentication.Instance.getCurrentUser().IdOwner == item.IdOwner)
+                        {
+                            <input  asp-action="EditOwner" asp-route-id="@item.IdOwner" class="btn btn-warning" type="submit" value="Edit" />
+                        }
+
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+

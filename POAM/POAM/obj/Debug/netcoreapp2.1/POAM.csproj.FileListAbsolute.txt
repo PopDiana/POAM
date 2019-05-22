@@ -1,0 +1,147 @@
+C:\Users\diana\source\repos\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.deps.json
+C:\Users\diana\source\repos\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.runtimeconfig.json
+C:\Users\diana\source\repos\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.runtimeconfig.dev.json
+C:\Users\diana\source\repos\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.dll
+C:\Users\diana\source\repos\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.pdb
+C:\Users\diana\source\repos\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.Views.dll
+C:\Users\diana\source\repos\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.Views.pdb
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csprojAssemblyReference.cache
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csproj.CoreCompileInputs.cache
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorAssemblyInfo.cache
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorAssemblyInfo.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.AssemblyInfoInputs.cache
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.AssemblyInfo.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.TagHelpers.input.cache
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.TagHelpers.output.cache
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorCoreGenerate.cache
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorTargetAssemblyInfo.cache
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorTargetAssemblyInfo.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.Views.pdb
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.dll
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.pdb
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csproj.CopyComplete
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Create.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Edit.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Create.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Delete.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Details.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Edit.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Login.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\MainPage.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\OwnersList.g.cshtml.cs
+C:\Users\diana\source\repos\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\DeleteOwner.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.deps.json
+F:\SE_IS Project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.runtimeconfig.json
+F:\SE_IS Project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.runtimeconfig.dev.json
+F:\SE_IS Project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.dll
+F:\SE_IS Project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.pdb
+F:\SE_IS Project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.Views.dll
+F:\SE_IS Project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.Views.pdb
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csprojAssemblyReference.cache
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csproj.CoreCompileInputs.cache
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorAssemblyInfo.cache
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorAssemblyInfo.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.AssemblyInfoInputs.cache
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.AssemblyInfo.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.TagHelpers.input.cache
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.TagHelpers.output.cache
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorCoreGenerate.cache
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Create.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Delete.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Details.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Edit.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\Index.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\MainPage.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owners\Create.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owners\Delete.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owners\Details.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owners\Edit.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owners\Index.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Create.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Delete.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\DeleteOwner.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Details.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Edit.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Index.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Login.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\OwnersList.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorTargetAssemblyInfo.cache
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorTargetAssemblyInfo.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.Views.pdb
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.dll
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.pdb
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csproj.CopyComplete
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Create.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Details.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Edit.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Index.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employees\EmployeesList.g.cshtml.cs
+F:\SE_IS Project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employees\DeleteEmployee.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.deps.json
+C:\Users\diana\Documents\se-is-project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.runtimeconfig.json
+C:\Users\diana\Documents\se-is-project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.runtimeconfig.dev.json
+C:\Users\diana\Documents\se-is-project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.dll
+C:\Users\diana\Documents\se-is-project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.pdb
+C:\Users\diana\Documents\se-is-project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.Views.dll
+C:\Users\diana\Documents\se-is-project\POAM\POAM\bin\Debug\netcoreapp2.1\POAM.Views.pdb
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csprojAssemblyReference.cache
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csproj.CoreCompileInputs.cache
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorAssemblyInfo.cache
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorAssemblyInfo.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.AssemblyInfoInputs.cache
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.AssemblyInfo.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.TagHelpers.input.cache
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.TagHelpers.output.cache
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorCoreGenerate.cache
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\MainPage.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\DeleteOwner.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\Login.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\OwnersList.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorTargetAssemblyInfo.cache
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.RazorTargetAssemblyInfo.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.Views.pdb
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.dll
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.pdb
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\POAM.csproj.CopyComplete
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\AddOwner.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Owner\EditOwner.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employee\DeleteEmployee.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employee\EmployeesList.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\ApartmentsOwned.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Contract\ContractsList.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employee\AddEmployee.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Employee\EditEmployee.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\WaterConsumption\AddWaterConsumption.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Receipt\AddPaymentReceipt.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\AddApartment.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\DeleteApartment.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Apartment\ApartmentDetails.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Contract\AddContract.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Contract\ContractDetails.g.cshtml.cs
+C:\Users\diana\Documents\se-is-project\POAM\POAM\obj\Debug\netcoreapp2.1\Razor\Views\Contract\FinalizeContract.g.cshtml.cs

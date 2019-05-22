@@ -1,0 +1,34 @@
+﻿@model POAM.Models.Receipt
+
+@{
+    ViewData["Title"] = "Add Receipt";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+    </div>
+        <div class="col-md-4">
+            <form asp-action="AddPaymentReceipt">
+                <h3 style="margin-top:40px">New payment receipt</h3>
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Date" class="control-label"></label>
+                    <input type="date" asp-for="Date" class="form-control" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Amount" class="control-label"></label>
+                    <input asp-for="Amount" class="form-control" />
+                    <span asp-validation-for="Amount" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group" style="float:right">
+                    <input type="submit" asp-action="ApartmentsOwned" asp-controller="Apartment" value="Back" class="btn btn-default" />
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+

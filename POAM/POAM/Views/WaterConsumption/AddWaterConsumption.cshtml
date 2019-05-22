@@ -1,0 +1,37 @@
+﻿@model POAM.Models.WaterConsumption
+
+@{
+    ViewData["Title"] = "Add Consumption";
+}
+
+<div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+        <form asp-action="AddWaterConsumption">
+            <h3 style="margin-top:40px">Add water consumption</h3>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="WarmWater" class="control-label"> Warm water</label>
+                <input asp-for="WarmWater" class="form-control" />
+                <span asp-validation-for="WarmWater" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ColdWater" class="control-label">Cold water</label>
+                <input asp-for="ColdWater" class="form-control" />
+                <span asp-validation-for="ColdWater" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"> Date</label>
+                <input type="date" asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group" style="float:right">
+                <input type="submit" asp-action="ApartmentsOwned" asp-controller="Apartment" value="Back" class="btn btn-default" />
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

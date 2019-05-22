@@ -1,0 +1,69 @@
+﻿@model IEnumerable<POAM.Models.Apartment>
+@{
+    ViewData["Title"] = "Apartments Owned";
+}
+
+<h3 style="margin-top:45px">Apartments owned</h3>
+<hr />
+
+<form>
+    <input asp-action="MainPage" class="btn btn-primary" type="submit" value="Back to main page" />
+    <input asp-action="AddApartment" class="btn btn-primary" type="submit" value="Add apartment" />
+</form>
+
+
+<table style="margin-top:45px" class="table table-hover">
+    <thead>
+        <tr class="alert-danger">
+            <th class="text-center">
+                Building
+            </th>
+            <th class="text-center">
+                Street
+            </th>
+            <th class="text-center">
+                Flat No.
+            </th>
+            <th class="text-center">
+                Tenants
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+    
+            <tr class="alert-warning text-center">
+
+                <td>
+                    @item.Building            
+                </td>
+                <td >
+                    @item.Street
+                </td>
+                <td>
+                    @item.FlatNo
+                  
+                </td>
+                <td>
+                    @item.NoTenants
+                </td>
+
+                <td>
+                    <form>
+                    <input asp-action="DeleteApartment" asp-route-id="@item.IdApartment" class="btn btn-danger" type="submit" value="Delete" />
+                    <input asp-action="AddWaterConsumption" asp-route-id="@item.IdApartment" asp-controller="WaterConsumption" class="btn btn-primary" type="submit" value="Add water consumption" />
+                    <input asp-action="AddPaymentReceipt" asp-route-id="@item.IdApartment" asp-controller="Receipt" class="btn btn-primary" type="submit" value="Add payment receipt" />
+                     </form>
+
+                </td>
+
+            </tr>
+        
+        }
+    </tbody>
+</table>
+

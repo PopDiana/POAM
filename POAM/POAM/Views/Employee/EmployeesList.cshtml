@@ -1,0 +1,76 @@
+﻿
+@model IEnumerable<POAM.Models.Employee>
+
+
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h3 style="margin-top:45px">Employee list</h3>
+<hr />
+
+<form>
+    <input asp-controller="Apartment" asp-action="MainPage" type="submit" value="Back to main page" class="btn btn-default" />
+
+    @if (Authentication.Instance.isAdmin())
+    {
+        <input asp-action="AddEmployee" type="submit" value="Add employee" class="btn btn-primary" />
+    }
+</form>
+
+
+<table style="margin-top:45px" class="table table-hover">
+    <thead>
+        <tr class="alert-danger">
+            <th class="text-center">
+                Full name
+            </th>
+            <th class="text-center">
+                PID
+            </th>
+            <th class="text-center">
+                Address
+            </th>
+            <th class="text-center">
+                Telephone
+            </th>
+            <th class="text-center">
+                Salary
+            </th>
+         
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr class="alert-warning text-center">
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telephone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+
+            <td>
+                <form>
+                    <input asp-action="EditEmployee" asp-route-id="@item.IdEmployee" class="btn btn-warning" type="submit" value="Edit" />
+                    <input asp-action="DeleteEmployee" asp-route-id="@item.IdEmployee" class="btn btn-danger" type="submit" value="Delete" />
+
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<br />
+

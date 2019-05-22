@@ -1,0 +1,48 @@
+﻿@model POAM.Models.Apartment
+
+@{
+    ViewData["Title"] = "Add Apartment";
+}
+
+<div class="col-md-4">
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddApartment">
+            <h3 style="margin-top:40px">Add apartment</h3>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Building" class="control-label"></label>
+                <input asp-for="Building" class="form-control" />
+                <span asp-validation-for="Building" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Street" class="control-label"></label>
+                <input asp-for="Street" class="form-control" />
+                <span asp-validation-for="Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FlatNo" class="control-label">Flat No.</label>
+                <input asp-for="FlatNo" class="form-control" />
+                <span asp-validation-for="FlatNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoTenants" class="control-label">Tenants</label>
+                <input asp-for="NoTenants" class="form-control" />
+                <span asp-validation-for="NoTenants" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group" style="float:right">
+                <input type="submit" asp-action="ApartmentsOwned" value="Back" class="btn btn-default" />
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
