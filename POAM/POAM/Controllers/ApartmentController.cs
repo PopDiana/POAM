@@ -202,7 +202,8 @@ namespace POAM.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    apartment.IdOwner = Authentication.Instance.getCurrentUser().IdOwner;
+                    Owner owner = Authentication.Instance.getCurrentUser();
+                    apartment.IdOwner = owner.IdOwner;
                     apartment.CurrentDebt = 0;
                     apartment.PreviousDebt = 0;
                     apartment.TotalDebt = 0;
