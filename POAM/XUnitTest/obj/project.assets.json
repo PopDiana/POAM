@@ -10688,11 +10688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diana\\Documents\\se-is-project\\POAM\\XUnitTest\\XUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\diana\\Documents\\POAM\\POAM\\XUnitTest\\XUnitTest.csproj",
       "projectName": "XUnitTest",
-      "projectPath": "C:\\Users\\diana\\Documents\\se-is-project\\POAM\\XUnitTest\\XUnitTest.csproj",
+      "projectPath": "C:\\Users\\diana\\Documents\\POAM\\POAM\\XUnitTest\\XUnitTest.csproj",
       "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diana\\Documents\\se-is-project\\POAM\\XUnitTest\\obj\\",
+      "outputPath": "C:\\Users\\diana\\Documents\\POAM\\POAM\\XUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10711,8 +10711,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\diana\\Documents\\se-is-project\\POAM\\POAM\\POAM.csproj": {
-              "projectPath": "C:\\Users\\diana\\Documents\\se-is-project\\POAM\\POAM\\POAM.csproj"
+            "C:\\Users\\diana\\Documents\\POAM\\POAM\\POAM\\POAM.csproj": {
+              "projectPath": "C:\\Users\\diana\\Documents\\POAM\\POAM\\POAM\\POAM.csproj"
             }
           }
         }

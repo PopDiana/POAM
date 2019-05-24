@@ -12769,11 +12769,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diana\\Documents\\se-is-project\\POAM\\POAM\\POAM.csproj",
+      "projectUniqueName": "C:\\Users\\diana\\Documents\\POAM\\POAM\\POAM\\POAM.csproj",
       "projectName": "POAM",
-      "projectPath": "C:\\Users\\diana\\Documents\\se-is-project\\POAM\\POAM\\POAM.csproj",
+      "projectPath": "C:\\Users\\diana\\Documents\\POAM\\POAM\\POAM\\POAM.csproj",
       "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diana\\Documents\\se-is-project\\POAM\\POAM\\obj\\",
+      "outputPath": "C:\\Users\\diana\\Documents\\POAM\\POAM\\POAM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -40,7 +40,7 @@ namespace POAM.Controllers
             if (Authentication.Instance.isLoggedIn())
             {
 
-                var apartments = _context.Apartment.Include(a => a.IdOwnerNavigation);
+                var apartments = _context.Apartment.Include(a => a.IdOwnerNavigation).OrderBy(a=> a.IdOwnerNavigation.FullName);
 
                 var contracts = _context.Contract;
 
