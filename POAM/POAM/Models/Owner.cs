@@ -20,12 +20,12 @@ namespace POAM.Models
             "one lowercase character, one non-character and " +
             "one digit and its length should be at least 6 characters.")]
         public string Password { get; set; }
-        [Required]
+      
         public string FullName { get; set; }
 
         public string Telephone { get; set; }
 
-        [Required]
+        
         public string Email { get; set; }
         public bool? IsAdmin { get; set; }
         public string PassSalt { get; set; }

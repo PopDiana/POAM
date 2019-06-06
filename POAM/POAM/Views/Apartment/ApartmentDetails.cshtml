@@ -8,58 +8,62 @@
 <div class="col-md-4">
 </div>
 <div class="col-md-4">
-    <h4 style="margin-top:100px">Apartment details</h4>
-    <hr />
+    <div class="panel panel default" style="margin-top:60px">
+        <div class="panel-body" style="background-color:#f2dbae">
+            <h4 >Apartment details</h4>
+            <hr />
 
-    <dl class="dl-vertical" style="margin-left:10px">
-        <dt class="text-primary">
-            Owner:
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.IdOwnerNavigation.FullName)
-        </dd>
-        <dt class="text-primary">
-            Address:
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Street)
-            @(",")
-            @Html.DisplayFor(model => model.Building)
-            @(",")
-            @Html.DisplayFor(model => model.FlatNo)
-        </dd>
-        <dt class="text-primary">
-            No. Tenants:
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.NoTenants)
-        </dd>
-        <dt class="text-primary" >
-            Payment amount for @DateTime.Now.ToString("MMMM") @DateTime.Now.Year:         
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.CurrentDebt)
-        </dd>
-        <dt class="text-primary">
-            Debt from previous months:
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.PreviousDebt)
-        </dd>
+            <dl class="dl-vertical" style="margin-left:10px">
+                <dt class="text-primary">
+                    Owner:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.IdOwnerNavigation.FullName)
+                </dd>
+                <dt class="text-primary">
+                    Address:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Street)
+                    @(",")
+                    @Html.DisplayFor(model => model.Building)
+                    @(",")
+                    @Html.DisplayFor(model => model.FlatNo)
+                </dd>
+                <dt class="text-primary">
+                    No. Tenants:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.NoTenants)
+                </dd>
+                <dt class="text-primary">
+                    Payment amount for @DateTime.Now.ToString("MMMM") @DateTime.Now.Year:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.CurrentDebt)
+                </dd>
+                <dt class="text-primary">
+                    Debt from previous months:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.PreviousDebt)
+                </dd>
 
-        <dt class="text-primary">
-           Total payment amount:
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.TotalDebt)
-        </dd>
+                <dt class="text-primary">
+                    Total payment amount:
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.TotalDebt)
+                </dd>
 
-    </dl>
-    <hr />
-    <div style="float:right">
-        <form>
-            <input asp-action="MainPage" type="submit" value="Back to main page" class="btn btn-default" />
-        </form>
+            </dl>
+            <hr />
+            <div style="float:right">
+                <form>
+                    <input asp-action="MainPage" type="submit" value="Back to main page" class="btn btn-primary" />
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 

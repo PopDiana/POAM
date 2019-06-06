@@ -76,12 +76,12 @@ using POAM.Models;
             WriteLiteral("\r\n<h3 style=\"margin-top:45px\">Apartments owned</h3>\r\n<hr />\r\n\r\n");
             EndContext();
             BeginContext(158, 217, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e59ff107513249bb9e24dd8f51b31344", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9aaaf747cc534a9fa97c9188e6256137", async() => {
                 BeginContext(164, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(170, 95, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3baa5ebc81274fe48111eeed89e9a2ec", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "110dc15029614dd8abaae9be561f74d6", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper>();
@@ -103,7 +103,7 @@ using POAM.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(271, 95, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f45489a6c3494df1947ae3696db7678c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "830f5ae48628466e87dd44ea80a2cc50", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper>();
@@ -216,12 +216,12 @@ using POAM.Models;
             WriteLiteral("\r\n                </td>\r\n\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(1405, 566, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f93707bc671b41e58fec80709b09043b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1a0adcce5f3f4e42b4e2403809637908", async() => {
                 BeginContext(1411, 22, true);
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(1433, 123, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "722fdc6b7ae54185a69e950d9f3a4640", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9f4a6affdd4649dca91d4bfcd4aa0d8b", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper>();
@@ -256,7 +256,7 @@ using POAM.Models;
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(1578, 177, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "86445615f57a458a95ccb0c0f0a98a03", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e4582bf6e50f40cdabc3a57237188197", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper>();
@@ -293,7 +293,7 @@ using POAM.Models;
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(1777, 164, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "15fa84fa9148485bb4994189d71e6968", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "1f6b98c97b764ec8a8b1a8f82812e5f9", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper>();
