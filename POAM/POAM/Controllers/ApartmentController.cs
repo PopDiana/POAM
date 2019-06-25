@@ -76,14 +76,16 @@ namespace POAM.Controllers
 
                     DateTime date = DateTime.Now;
 
-                    var oldWaterConsumption = waterConsumptions.FirstOrDefault(w => w.Date.Month != date.Month);
+                    WaterConsumption oldWaterConsumption = waterConsumptions.FirstOrDefault(w => w.Date.Month != date.Month);
 
                     // if an old report of water consumption was found
                     if(oldWaterConsumption != null)
                     {
                         // current debt becomes previous debt
                         apartment.PreviousDebt += apartment.CurrentDebt;
-                        
+                        // delete the report
+                        _context.WaterConsumption.Remove(oldWaterConsumption);                 
+
                     }
 
                     apartment.CurrentDebt = 0;
