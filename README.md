@@ -17,3 +17,12 @@ If necessary, remove the latest migration with:
 
 `$ remove-migration`
 
+Login credentials:
+
+```
+
+username: admin
+password: P@$$w0rd
+
+```
+
